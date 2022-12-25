@@ -1,0 +1,44 @@
+body{
+    padding: 50px;
+    margin-top: 300px;
+    font-size: 30px;
+    background-color: #6d87958e;
+    background-image: url("img\background\water.jpg");
+    
+
+}
+
+h2{
+    image-rendering: url('img\flower.png');
+    color: #325e76;
+    margin-left: -50px;
+}
+
+form{
+    background-color: #bfe3e5;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    margin-left: 28%;
+    margin-top: -40px;
+}
+
+h2,button,label{
+    margin-left: 80px;
+    top: -80%;
+}
+
+input{
+    margin-inline: 10px;
+    margin-left: 20px;
+}
+
+button{ 
+    margin-left: 240px;
+}
+
+a{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
