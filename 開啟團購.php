@@ -2,20 +2,20 @@
 <html lang="zh-TW">
     <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="login_UI.css">
+    <link rel="stylesheet" href="order_set_UI.css">
         <title> 開啟團購 </title>
 
     </head>
 
     <body>
     <form action = "開啟團購後台.php" method = "POST">
-            <h2> 設定您要開啟的團購 </h2>
+            <h2> &ensp;設定您要開啟的團購 </h2>
             </br>
-            <label>團購標題：</label>
+            <label>團購標題：&ensp;</label>
             <input type = "text" name = "order_title" placeholder = "請輸入團購標題" required></br>
 
-            <label>團購介紹：</label></br>
-            <textarea rows="10" cols="35" maxlength = "100" name = "intr" placeholder = "介紹內文" ></textarea></br>
+            <label>團購介紹：&ensp;</label></br>
+            <textarea rows="6" cols="50" maxlength = "100" name = "intr" placeholder = "介紹內文" ></textarea></br>
 
             <label>選擇團購商品：</label>
             <select name="item" >
@@ -43,11 +43,12 @@
             </br>
 
 
-            <label>截止日期</label>
-            <input type = "date" name = "last_date" placeholder = "設定團購訂單截止日期" required></br>
+            <label>截止日期：&ensp;</label>
+            <input type = "date" name = "last_date" placeholder = "設定團購訂單截止日期" required></br></br>
 
-            <button type="reset">重設表單</button>
-            <button type = "submit">確認與送出</button>
+            <button type="reset" class="reset">重設表單</button>
+            <button type = "submit" class="submit">確認與送出</button>
+            </br></br>
             <a href="首頁.php">返回</a>
 
         </form>

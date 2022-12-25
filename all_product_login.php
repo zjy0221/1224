@@ -50,7 +50,7 @@
                             </ul>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="people.html">個人專區</a>
+                              <a class="nav-link" href="people_login.php">個人專區</a>
                           </li>
                             <div id="my-content">
                               <li class="menu__item">
@@ -208,7 +208,7 @@
                             <li><a href='classification_login.php'>商品分類</a></li>
                           </ul>
                           <ul>
-                            <li><a href='people_login.html'>個人專區</a></li>
+                            <li><a href='people_login.php'>個人專區</a></li>
                             <li><a href='contact_login.html'>聯絡我們</a></li>
                           </ul>						  
                       </div>

@@ -233,7 +233,7 @@
                               <li><a href='classification_login.php'>商品分類</a></li>
                           </ul>
                           <ul>
-                              <li><a href='people_login.html'>個人專區</a></li>
+                              <li><a href='people_login.php'>個人專區</a></li>
                               <li><a href='contact_login.html'>聯絡我們</a></li>
                           </ul>			  
                       </div>

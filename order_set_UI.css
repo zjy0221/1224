@@ -1,0 +1,47 @@
+body{
+    padding: 50px;
+    margin-top: 300px;
+    font-size: 30px;
+    background-color: #6d87958e;
+    
+}
+
+form{
+    background-color: #bfe3e5;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    margin-left: 28%;
+    margin-top: -40px;
+}
+
+h2{
+    image-rendering: url('img\flower.png');
+    color: #325e76;
+    margin-left: -50px;
+}
+
+h2,button,label{
+    margin-left: 80px;
+}
+
+textarea{
+    margin-left: 83px;
+}
+
+input.text{
+    margin-left: 235px;
+}
+
+button.reset{
+    margin-left: 180px;
+}
+
+button.submit{
+    margin-left: 40px;
+}
+
+a{
+    font-size: 30px;
+    margin-left: 500px;
+}

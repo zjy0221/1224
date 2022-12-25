@@ -49,6 +49,7 @@ require_once "資料庫連接.php";
                 $_SESSION['address'] = $查詢數值['address'];
                 $_SESSION['phone'] = $查詢數值['phone_number'];
                 $_SESSION['photo'] = $查詢數值['head_shot'];
+                $_SESSION['intro'] = $查詢數值['self_intro'];
 
 
                 header("Location: 首頁.php" ); // header = 跳轉頁面，登入成功後，會跳到 你是哪個會員、的首頁。

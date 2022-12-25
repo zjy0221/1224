@@ -202,7 +202,7 @@ header nav img{
 	background: rgb(248, 248, 248);
 	padding: 80px 0px;
 }
-#latest .upper{
+#latest .upper {
 	position:relative;
 }
 #latest .innertext{
@@ -233,14 +233,11 @@ header nav img{
 	font-size: 21px;
 	margin-bottom: 20px;
 }
-#latest a{
-	color:black;
-}
-#latest a{
+#latest a,#seefollow a{
 	color:black;
 	text-decoration: none;
 }
-#latest i{
+#latest i,#seefollow i{
 	margin-right:5px;
 }
 
@@ -353,15 +350,87 @@ footer h4 {
 }
 
 #person p , #person a{
-    
-    line-height: 1.5%;
+    font-size: 32px;
+    font-weight:bold;
+    line-height: 3%;
 }
 
 #seefollow{
     background-color: #325e76;
+    font-size: 45px;
+}
+
+#seefollow img{
+    width: 180px;
+    height: 180px;
+}
+
+#seefollow h1{
+    color: white;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+#seefollow p{
+    color: white;
+    margin-left: 20%;
+    
+}
+
+#personal.fafa {
+	position:relative;
+}
+
+#personal{
+    background: #325e76;
+    padding: 20px 0px;
+}
+
+#personal img{
+    width:202px;
+    height:262px;
+}
+
+#personal.col-md-3 .object{
+	box-shadow: 0 0 8px 0 rgba(0,0,0,0.08);
+	padding: 0px;
+	margin: 0 5px;
+}
+
+#saw{
+    background-color: #325e76;
+    padding: 20px,0;
+}
+
+#saw img{
+    width:238px;
+    height:72px;
+}
+
+#contant{
+    background-color: #325e76;
+}
+
+#contant img{
+    width:355px;
+    height:96px;
+}
+#contant .upper{
+    margin-left: 6%;
+}
+.br{
+    background-color: #325e76;
+}
+.UID{
+    margin-left: -95%;
+}
+#out img{
+    margin-left: 100%;
+    width: 100px;
+    height: 70px;
 }
 /* ==========================
-1. 325e76(主背景色)
-2. bfe3e5(淺藍)
-3. e5c9be(粉色)
+1. #325e76(主背景色)
+2. #bfe3e5(淺藍)
+3. #e5c9be(粉色)
 =============================*/
